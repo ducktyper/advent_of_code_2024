@@ -6,6 +6,7 @@ mod day05;
 mod day06;
 mod day07;
 mod day08;
+mod day09;
 use std::fs;
 
 fn main() {
@@ -25,6 +26,8 @@ fn main() {
     println!("day07-2: {}", day07::part2(&input("day07")));
     println!("day08-1: {}", day08::part1(&input("day08")));
     println!("day08-2: {}", day08::part2(&input("day08")));
+    println!("day09-1: {}", day09::part1(&input("day09")));
+    println!("day09-2: {}", day09::part2(&input("day09")));
 }
 
 fn input(file_name: &str) -> String {
